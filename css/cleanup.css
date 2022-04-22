@@ -1,21 +1,19 @@
 /* write your override styles here */
-div#tag-3 {
-    width: fit-content;
-    height: max-content;
-    top: inherit;
-    display: list-item;
-    border-block: unset;
-    background-color: coral;
+#wall .tag-1 {
+    display: none;
 }
-div#tag-5 {
-    padding-left: initial;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    background: border-box;
+#wall #tag-2 {
+    display: none;
 }
-.tag-1 {
-    background-color: aqua;
-    padding-bottom: inherit;
-    border-block-width: revert;
-    height: fit-content;
+div#wall #tag-3.slick {
+    display: none;
+}
+#wall #tag-4 {
+    display: none;
+}
+div#wall .parent #tag-5.slick {
+    display: none;
+}
+div#wall div.parent div:last-child div#tag-6 {
+    display: none;
 }
